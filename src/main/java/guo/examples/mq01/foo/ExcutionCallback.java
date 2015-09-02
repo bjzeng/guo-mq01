@@ -4,7 +4,6 @@ import javax.jms.Session;
 
 public interface ExcutionCallback {
 
-  public void excute(Session session);
-
+    public void excute(Session session);
 
 }
